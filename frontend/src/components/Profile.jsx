@@ -26,7 +26,7 @@ const Profile = () => {
           <div className="flex items-center gap-4">
             <Avatar className="h-24 w-24">
               <AvatarImage
-                src="https://static.vecteezy.com/system/resources/previews/000/392/973/original/modern-company-logo-design-vector.jpg"
+                src={user?.profile?.profilePhoto}
                 alt="profile"
               />
             </Avatar>
