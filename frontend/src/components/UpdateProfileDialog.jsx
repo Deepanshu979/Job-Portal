@@ -119,7 +119,7 @@ const UpdateProfileDialog = ({ open, setOpen }) => {
               <Input
                 id="number"
                 className="col-span-3"
-                name="number"
+                name="phoneNumber"
                 value={input.phoneNumber}
                 onChange={changeEventHandler}
               />
